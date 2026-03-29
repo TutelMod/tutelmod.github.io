@@ -54,17 +54,17 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                PenguinMod Credits
+                TutelMod Credits
             </h1>
         </header>
         <section>
-            <h1>PenguinMod</h1>
+            <h1>TutelMod</h1>
         </section>
         <section>
             <h2>Thank you</h2>
             <p>
-                Without TurboWarp, PenguinMod may have never existed.
-                Thank you to everyone who worked on Scratch and TurboWarp,
+                Without PenguinMod, TutelMod may have never existed.
+                Thank you to everyone who worked on Scratch, TurboWarp and PenguinMod,
                 you have made many people finally be able to make whatever they can imagine.
             </p>
             <a href="https://scratch.mit.edu/donate">
@@ -76,16 +76,16 @@ const Credits = () => (
             </a>
             <h2>Contributors</h2>
             <p>
-                PenguinMod is made by a small bunch of developers.
-                A list is below, but you can also check <a href="https://github.com/orgs/PenguinMod/people">our GitHub</a> incase this one is out of date.
+                TutelMod is maintained by one developer.
+                A list is below even tho we probably don't need to list one person, but you can also check <a href="https://github.com/orgs/TutelMod/people">our GitHub</a> incase this one is out of date.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
-            <p>There are even community members who have helped develop PenguinMod. People like <i>you!</i></p>
+            <p>There are even community members who have helped develop TutelMod. People like <i>you!</i></p>
             <UserList users={UserData.pmPullRequestDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
-                We've also included work from other open-source projects inside of PenguinMod.
+                We've also included work from other open-source projects inside of TutelMod.
                 Here's a list of some other projects you should check out:
             </p>
             <UserList users={UserData.pmCodeUsedFrom} />
@@ -104,27 +104,6 @@ const Credits = () => (
                     height="160"
                 />
             </a>
-            <h2>Domain Provider</h2>
-            <p>
-                <a href="https://penguinmod.com">penguinmod.com</a> (and any subdomains) are currently
-                provided by <a href="https://github.com/enderhacker">enderhacker</a>.
-                <br></br>
-                <a href="https://github.com/enderhacker">
-                    <img src="https://avatars.githubusercontent.com/u/61245488?v=4" style={{ width: "128px" }}></img>
-                </a>
-            </p>
-            <h2>Server Host</h2>
-            <p>
-                PenguinMod's Project Sharing server is currently hosted by <a href="https://github.com/ianyourgod">ianyourgod</a>.
-                <br></br>
-                <a href="https://github.com/ianyourgod">
-                    <img src="https://avatars.githubusercontent.com/u/104151459?v=4" style={{ width: "128px" }}></img>
-                </a>
-            </p>
-            <p>
-                The PenguinMod Server API is maintained by many people.
-                A list is below, but you can also check <a href="https://github.com/PenguinMod/PenguinMod-IntermediateBackendApi/graphs/contributors">the GitHub repository</a> incase this one is out of date.
-            </p>
             <UserList users={UserData.pmApiDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <h2>Costumes</h2>
@@ -168,12 +147,12 @@ const Credits = () => (
             </p>
         </section>
         <section>
-            <h1>PenguinMod & TurboWarp</h1>
+            <h1>TutelMod, PenguinMod & TurboWarp</h1>
         </section>
         <section>
             <h2>Extensions</h2>
             <p><i>
-                If you are an extension developer who wants their extension removed from PenguinMod's extensions list,
+                If you are an extension developer who wants their extension removed from TutelMod's extensions list,
                 contact us as soon as you can. We'll get it removed as soon as we are able to.
             </i></p>
             <p>
@@ -184,7 +163,7 @@ const Credits = () => (
             <UserList users={UserData.extensionDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
-                PenguinMod also has a few people who made and submitted extensions too!
+                TutelMod also has a few people who made and submitted extensions too!
                 This list may get outdated sometimes, but here they are listed below:
             </p>
             <UserList users={UserData.pmExtensionDevelopers} />
@@ -261,10 +240,10 @@ const Credits = () => (
                 far more than we could hope to list here.
             </p>
             <p>
-                PenguinMod is also (very very slowly) getting translated into other languages, in the future
+                TutelMod & PenguinMod are also (very very slowly) getting translated into other languages, in the future
                 hopefully the same number of languages can be supported. It'll take a while until we get there though.
             </p>
-            <p>Here is the current list of PenguinMod Translators:</p>
+            <p>Here is the current list of PenguinMod & TutelMod Translators:</p>
             <UserList users={UserData.pmTranslators} />
             <p><i>The list order is randomized on each refresh.</i></p>
         </section>

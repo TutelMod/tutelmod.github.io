@@ -114,93 +114,14 @@ const addonDevelopers = [
 ].map(fromHardcoded);
 
 const pmDevelopers = [
-    'enderhacker',
-    'FreshPenguin112',
-    'Ianyourgod',
-    'JoshAtticus',
-    'JeremyGamer13',
-    'jwklong',
-    'tnix100',
-    'RedMan13',
-    'SharkPool-SP',
-    'showierdata9978'
+    'vedal789'
 ].map(fromHardcodedGithub);
 
 const pmPullRequestDevelopers = [ // these people made a PR that got merged, or got a dev to add something they made
     {
-        text: 'NexusKitten',
-        image: `https://github.com/NexusKitten.png`,
-        href: `https://github.com/NexusKitten/`,
-    },
-    {
-        text: 'LilyMakesThings',
-        image: `https://github.com/LilyMakesThings.png`,
-        href: `https://github.com/LilyMakesThings/`,
-    },
-    {
-        text: 'MikeDev101',
-        image: `https://github.com/MikeDev101.png`,
-        href: `https://github.com/MikeDev101/`,
-    },
-    {
-        text: 'kokofixcomputers',
-        image: `https://github.com/kokofixcomputers.png`,
-        href: `https://github.com/kokofixcomputers/`,
-    },
-    {
-        text: 'PPPDUD',
-        image: `https://github.com/PPPDUD.png`,
-        href: `https://github.com/PPPDUD/`,
-    },
-    {
-        text: 'qbjl',
-        image: `https://github.com/qbjl.png`,
-        href: `https://github.com/qbjl/`,
-    },
-    {
-        text: 'minidogg',
-        image: `https://github.com/minidogg.png`,
-        href: `https://github.com/minidogg/`,
-    },
-    {
-        text: 'concertalyis',
-        image: `https://github.com/concertalyis.png`,
-        href: `https://github.com/concertalyis/`,
-    },
-    {
-        text: 'Steve0Greatness',
-        image: `https://github.com/Steve0Greatness.png`,
-        href: `https://github.com/Steve0Greatness/`,
-    },
-    {
-        text: 'ilikecoding-197',
-        image: `https://github.com/ilikecoding-197.png`,
-        href: `https://github.com/ilikecoding-197/`,
-    },
-    {
-        text: 'NotEmbin',
-        image: `https://github.com/NotEmbin.png`,
-        href: `https://github.com/NotEmbin/`,
-    },
-    {
-        text: 'ddededodediamante',
-        image: `https://github.com/ddededodediamante.png`,
-        href: `https://github.com/ddededodediamante/`,
-    },
-    {  // rx or ry single fix
-        text: 'NotCryptid',
-        image: `https://penguinmod.com/unknown_user.png`,
-        href: `https://github.com/NotCryptid/`,
-    },
-    {
-        text: 'DogeisCut',
-        image: `https://github.com/DogeisCut.png`,
-        href: `https://github.com/Dogeiscut/`,
-    },
-    {
-        text: 'thekeura',
-        image: `https://github.com/thekeura.png`,
-        href: `https://github.com/thekeura/`,
+        text: 'something would go here',
+        image: `something would go here`,
+        href: `https://github.com/`,
     }
     // list could be missing some people, but theres not really a way to tell
 ];
@@ -942,7 +863,7 @@ const extensionDevelopers = [
 const pmExtensionDevelopers = [
     'qbjl',
     'NexusKitten',
-    'Gen1x-ALT',
+    'Gen1x-ALT', // w genix 🥹
     'SharkPool-SP',
     'DogeisCut', // listed as a collaborator on a SharkPool extension
     'David-Orangemoon',

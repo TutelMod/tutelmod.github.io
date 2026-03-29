@@ -16,10 +16,10 @@ body[theme="dark"] {
 }
 
 a {
-    color: blue;
+    color: rgb(75, 255, 135);
 }
 [theme="dark"] a {
-    color: #4af;
+    color: rgba(29, 189, 64, 0.767);
 }
 
 .main section {
@@ -36,7 +36,6 @@ a {
     margin-bottom: 30px;
 }
 .header-text {
-
 }
 
 .users {
