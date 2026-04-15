@@ -115,7 +115,7 @@ const addonDevelopers = [
 
 const pmDevelopers = [
     'vedal789',
-    'FloppyDisk_OSC'
+    'FloppyDisk-OSC'
 ].map(fromHardcodedGithub);
 
 const pmPullRequestDevelopers = [ // these people made a PR that got merged, or got a dev to add something they made
