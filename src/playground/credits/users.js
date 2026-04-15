@@ -114,12 +114,13 @@ const addonDevelopers = [
 ].map(fromHardcoded);
 
 const pmDevelopers = [
-    'vedal789'
+    'vedal789',
+    'FloppyDisk_OSC'
 ].map(fromHardcodedGithub);
 
 const pmPullRequestDevelopers = [ // these people made a PR that got merged, or got a dev to add something they made
     {
-        text: 'something would go here',
+        text: 'no one yet :c',
         image: `something would go here`,
         href: `https://github.com/`,
     }
