@@ -141,6 +141,11 @@ export default defineMessages({
         description: 'Tag for filtering a library for guns',
         id: 'pm.libraryTags.guns'
     },
+    tutelmod: {
+        defaultMessage: 'TutelMod',
+        description: 'Tag for filtering a library by TutelMod',
+        id: 'pm.libraryTags.tutelmod'
+    },
     penguinmod: {
         defaultMessage: 'PenguinMod',
         description: 'Tag for filtering a library by PenguinMod',

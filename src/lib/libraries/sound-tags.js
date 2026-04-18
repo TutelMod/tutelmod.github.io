@@ -1,5 +1,6 @@
 import messages from './tag-messages.js';
 export default [
+    { tag: 'tutelmod', intlLabel: messages.tutelmod },
     {tag: 'penguinmod', intlLabel: messages.penguinmod},
     {type: 'divider'},
     {type: 'subtitle', intlLabel: "Types"},
