@@ -1235,7 +1235,7 @@ const menuItems = [
                 id="tutel.extraLibraryExtensions.name"
             />
         ),
-        href: 'https://tutelmod.github.io/TutelMod-ExtensionGallery/?editor=true',
+        href: 'https://tutelmod.github.io/TutelMod-ExtensionsGallery/?editor=true',
         extensionId: 'special_tutelmodExtensionLibrary',
         iconURL: tutelmodLibraryExtensionIcon,
         description: (
@@ -1323,7 +1323,7 @@ const menuItems = [
         description: 'A fork of ExtForge that focuses on creating extensions for the TutelMod community.',
         extDeveloper: 'vedal789',
         isNew: true,
-        tags: ['creation', 'tutelmod'],
+        tags: ['extcreate'],
         featured: true,
         credits: 'Forked from ExtForge by jwklong'
     },
