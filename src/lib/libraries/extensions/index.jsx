@@ -60,6 +60,7 @@ import customExtensionIcon from './custom/custom.svg';
 import turbowarpIcon from './penguinmod/extensions/turbowarp_icon.svg';
 import penguinmodLibraryExtensionIcon from './penguinmod/library.svg';
 import sharkpoolGalleryIcon from './penguinmod/sharkpool-library.svg';
+import penguinmodLibraryExtensionIcon from './tutelmod/library.svg';
 
 import ExtForgeIcon from './penguinmod/extforge.svg';
 
@@ -170,6 +171,9 @@ import pmEventsExpansionExtensionIcon from './penguinmod/extensions/events_expan
 import pmControlsExpansionExtensionIcon from './penguinmod/extensions/controls_expanded.png';
 import pmSensingExpansionExtensionIcon from './penguinmod/extensions/sensing_expanded.png';
 import pmOperatorsExpansionExtensionIcon from './penguinmod/extensions/operators_expanded.png';
+
+// pm i guess
+import penguinmodIcon from './penguinmod/penguinmod_icon.png';
 
 /*
     Deprecated Thumbnails, uncomment if useful again
@@ -342,6 +346,8 @@ const menuItems = [
         name: 'Stage Camera',
         extensionId: 'pmCamera',
         iconURL: pmCameraExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod'],
         description: (
             <FormattedMessage
@@ -358,6 +364,8 @@ const menuItems = [
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Files-Expanded.js',
         extDeveloper: 'SharkPool',
         iconURL: filesExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['turbowarp', 'datamgmt'],
         description: 'Blocks for reading, editing, & creating files & folders.',
         featured: true
@@ -377,6 +385,8 @@ const menuItems = [
         extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/PenPlus.js',
         tags: ['categoryexpansion', 'graphics'],
         iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/PenPlus.svg',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'An extension to the Pen category! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.',
         featured: true,
         extDeveloper: 'pinksheep2917'
@@ -385,6 +395,8 @@ const menuItems = [
         name: 'Sound Systems',
         extensionId: 'jgExtendedAudio',
         iconURL: jgExtendedAudioExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion', 'noisemaker'],
         description: 'An audio grouping system for more intensive audio work.',
         featured: true
@@ -393,6 +405,8 @@ const menuItems = [
         name: 'Tune Shark V3',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Tune-Shark-V3.js',
         iconURL: sharkpoolTuneIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion', 'noisemaker'],
         description: 'Advanced audio engine with complex sound control, multiple audio effects and more!',
         extDeveloper: 'SharkPool',
@@ -402,6 +416,8 @@ const menuItems = [
         name: 'Sound Waves',
         extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Sound-Waves.js',
         iconURL: spSoundWaveIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'noisemaker'],
         description: 'Make sounds with oscillators!',
         extDeveloper: 'SharkPool',
@@ -411,6 +427,8 @@ const menuItems = [
         name: 'Motion Expansion',
         extensionId: 'pmMotionExpansion',
         iconURL: pmMotionExpansionExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'More small motion blocks for movement or collision.',
         featured: true,
@@ -420,6 +438,8 @@ const menuItems = [
         name: 'Looks Expanded',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Looks-Expanded.js',
         iconURL: sharkpoolLooksExpandedIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion', 'graphics'],
         description: 'Expansion of the Looks Category.',
         extDeveloper: 'SharkPool, CST1229',
@@ -429,6 +449,8 @@ const menuItems = [
         name: 'Events Expansion',
         extensionId: 'pmEventsExpansion',
         iconURL: pmEventsExpansionExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'More events for sending & receiving information, notifing specific sprites or better control when things should happen.',
         featured: true,
@@ -438,6 +460,8 @@ const menuItems = [
         name: 'Controls Expansion',
         extensionId: 'pmControlsExpansion',
         iconURL: pmControlsExpansionExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'More control blocks for animations, complex systems or cleaner one-time use blocks.',
         featured: true,
@@ -447,6 +471,8 @@ const menuItems = [
         name: 'Sensing Expansion',
         extensionId: 'pmSensingExpansion',
         iconURL: pmSensingExpansionExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion'],
         description: "More sensing blocks for specific use cases or interacting with the user's device.",
         credits: 'Some blocks from SharkPool-SP',
@@ -456,6 +482,8 @@ const menuItems = [
         name: 'Operators Expansion',
         extensionId: 'pmOperatorsExpansion',
         iconURL: pmOperatorsExpansionExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion', 'math'],
         description: 'More operators like nand, nor, character code to character, reading multiple lined text line by line, etc.',
         featured: true
@@ -464,6 +492,8 @@ const menuItems = [
         name: 'My Blocks+',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/My-Blocks-Plus.js',
         iconURL: sharkpoolMBPIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'Create private or global custom blocks with custom inputs, colors, and more!',
         extDeveloper: 'SharkPool, CST1229, 0znzw',
@@ -473,6 +503,8 @@ const menuItems = [
         name: 'Better Comments',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Better-Comments.js',
         iconURL: sharkpoolBCIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'categoryexpansion'],
         description: 'Better Comments with Customization and Markdown support',
         extDeveloper: 'SharkPool',
@@ -482,6 +514,8 @@ const menuItems = [
         name: 'Particle Engine',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Particle-Engine.js',
         iconURL: sharkpoolPEIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'graphics'],
         description: 'Create powerful Particle Engines without Clones',
         extDeveloper: 'SharkPool',
@@ -491,6 +525,8 @@ const menuItems = [
         name: 'Custom Styles',
         extensionId: 'shovelcss',
         iconURL: theshovelCustomStylesIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'graphics'],
         description: 'Customize the appearance of variable monitors and prompts in your project.',
         extDeveloper: 'TheShovel',
@@ -513,6 +549,8 @@ const menuItems = [
         credits: 'easings.net, Arrow & GarboMuffin',
         description: 'Smoothly animating values using different easing functions and directions.',
         iconURL: 'https://extensions.turbowarp.org/images/JeremyGamer13/tween.svg',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod'],
         featured: true
     },
@@ -521,6 +559,8 @@ const menuItems = [
         extensionId: 'jgTailgating',
         description: 'Have sprites & clones follow behind other sprites & clones by an offset, like RPG party members.',
         iconURL: jgTailgatingExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod'],
         featured: true
     },
@@ -528,6 +568,8 @@ const menuItems = [
         name: 'Tile Grids',
         extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Tile-Grids.js',
         iconURL: 'https://extensions.penguinmod.com/images/SharkPool/Tile-Grids.svg',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod'],
         description: 'Place sprites on grids.',
         extDeveloper: 'SharkPool-SP',
@@ -537,6 +579,8 @@ const menuItems = [
         name: 'Canvas Effects',
         extensionId: 'theshovelcanvaseffects',
         iconURL: theshovelCanvasEffectsIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'graphics'],
         description: 'Apply visual effects to the entire stage.',
         extDeveloper: 'TheShovel',
@@ -558,6 +602,8 @@ const menuItems = [
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Turbo-Skins.js',
         tags: ['penguinmod', 'graphics'],
         iconURL: spTurboSkinsIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Display sprites with various images or costumes and control their hitboxes',
         extraLabels: [
             {
@@ -572,6 +618,8 @@ const menuItems = [
         name: 'Multiple Timers',
         extensionId: 'jgTimers',
         iconURL: jgTimersExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod'],
         description: 'Create different timers you can control seperately.',
         eventSubmittor: 'Arrow',
@@ -581,6 +629,8 @@ const menuItems = [
         name: 'Temporary Variables',
         extensionId: 'tempVars',
         iconURL: gsaTempVariablesExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod'],
         description: 'Create temporary variables for use in one block stack.',
         featured: true
@@ -589,6 +639,8 @@ const menuItems = [
         name: 'SharkPool\'s Temporary Variables',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/Temporary-Variables.js',
         iconURL: spTempVarsIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'datamgmt'],
         description: 'Create temporary runtime, threaded, sprite & scoped variables.',
         featured: true
@@ -607,6 +659,8 @@ const menuItems = [
         name: 'Swift JSON',
         extensionId: 'https://sharkpools-extensions.vercel.app/extension-code/JSON-Array.js',
         iconURL: spJSONExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'datamgmt'],
         extDeveloper: 'SharkPool',
         description: 'FAST Extension for handling JSON objects and arrays efficiently. Recommended if you are heavily using JSON several times in a project.',
@@ -617,6 +671,8 @@ const menuItems = [
         extensionId: 'jgRuntime',
         tags: ['penguinmod'],
         iconURL: jgRuntimeExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Blocks for updating Scratch objects like the stage and sprites.',
         credits: 'TheShovel, showierdata9978, SharkPool',
         featured: true
@@ -625,6 +681,8 @@ const menuItems = [
         name: 'Font Manager',
         extensionId: 'https://extensions.penguinmod.com/extensions/SharkPool/Font-Manager.js',
         iconURL: spFontManagerIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'graphics'],
         description: 'Manage, create, and delete fonts.',
         credits: 'SharkPool, Ashimee',
@@ -634,6 +692,8 @@ const menuItems = [
         name: 'Storage',
         extensionId: 'jgStorage',
         iconURL: jgStorageExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'datamgmt'],
         description: 'Store data after PenguinMod has already been closed out. Basic Server Storage is also included.',
         eventSubmittor: 'Fir & silvxrcat',
@@ -656,6 +716,8 @@ const menuItems = [
         tags: ['turbowarp', 'penguinmod'],
         insetIconURL: cloudlinkIcon,
         iconURL: 'https://extensions.penguinmod.com/images/MikeDev101/cloudlink.svg',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'A powerful WebSocket extension for Scratch.',
         featured: true,
         extDeveloper: 'MikeDev',
@@ -665,6 +727,8 @@ const menuItems = [
         name: 'Scripts',
         extensionId: 'jgScripts',
         iconURL: jgScriptsExtensionIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'datamgmt'],
         description: 'Create compiled scripts with blocks while the project is running.',
         featured: true
@@ -674,6 +738,8 @@ const menuItems = [
         extensionId: 'https://extensions.penguinmod.com/extensions/SammerLOL/pangapi.js',
         iconURL: 'https://extensions.penguinmod.com/images/SammerLOL/pangapi.avif',
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Fetch information from the PenguinMod API.',
         extDeveloper: 'oc9x97, Ianyourgod',
         featured: true
@@ -683,6 +749,8 @@ const menuItems = [
         extensionId: 'https://extensions.penguinmod.com/extensions/ObviousAlexC/3DMath.js',
         iconURL: 'https://extensions.penguinmod.com/images/ObviousAlexC/3DMath.svg',
         tags: ['penguinmod', '3d', 'graphics', 'math'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'A handful of utilities for making your own sprite-based 3D engine.',
         extDeveloper: 'pinksheep2917',
         featured: true
@@ -692,6 +760,8 @@ const menuItems = [
         extensionId: 'https://extensions.penguinmod.com/extensions/Gen1x/random_utils.js',
         iconURL: 'https://extensions.penguinmod.com/images/Gen1x/randomutils.avif',
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Many blocks related to generating random values, including seed-based number generation, true number generation, UUID\'s, random strings, etc.',
         extDeveloper: 'G1nX',
         featured: true
@@ -700,6 +770,8 @@ const menuItems = [
         name: 'LZ Compress',
         extensionId: 'shovellzcompresss',
         iconURL: theshovelLzCompressIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'datamgmt'],
         description: 'Compress and decompress text using lz-string.',
         extDeveloper: 'TheShovel',
@@ -708,6 +780,8 @@ const menuItems = [
     {
         name: 'Prism',
         extensionId: 'jgPrism',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         tags: ['penguinmod', 'datamgmt'],
         iconURL: jgPrismExtensionIcon,
         description: 'Blocks for specific use-cases or major convenience.',
@@ -716,6 +790,8 @@ const menuItems = [
     {
         name: 'HTML iframe Elements',
         extensionId: 'jgIframe',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         iconURL: jgIframeExtensionIcon,
         tags: ['penguinmod'],
         description: 'Blocks to place and move around frames that contain HTML content or websites.',
@@ -725,6 +801,8 @@ const menuItems = [
     {
         name: 'Color Picker',
         extensionId: 'shovelColorPicker',
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         iconURL: theshovelColorPickerIcon,
         tags: ['penguinmod'],
         description: 'Allow the user to choose a color using the built-in color picker, so you don\'t need to make your own.',
@@ -742,6 +820,8 @@ const menuItems = [
         extensionId: 'jwProto',
         iconURL: jwProtoExtensionIcon,
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: (
             <FormattedMessage
                 // change this back if you update the extension to have more things
@@ -762,6 +842,8 @@ const menuItems = [
         ),
         extensionId: 'iygPerlin',
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         iconURL: iygPerlinNoiseExtensionIcon,
         description: (
             <FormattedMessage
@@ -793,6 +875,8 @@ const menuItems = [
         tags: ['penguinmod', 'hardware'],
         extensionId: 'sharkpoolPrinting',
         iconURL: sharkpoolPrintingIcon,
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Allows you to show a dialog for printing text, images, and custom HTML to a printer.',
         featured: true
     },
@@ -845,6 +929,8 @@ const menuItems = [
         extensionId: 'jgScratchAuthenticate',
         iconURL: jgScratchAuthExtensionIcon,
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: "Interact with Scratch Authentication to prove the player is a real scratch user.",
         featured: true
     },
@@ -853,6 +939,8 @@ const menuItems = [
         extensionId: 'SPjavascriptV2',
         iconURL: jgJavascriptExtensionIcon,
         tags: ['penguinmod', 'programminglanguage'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Run your own custom code written in JavaScript!',
         featured: true
     },
@@ -861,6 +949,8 @@ const menuItems = [
         extensionId: 'jwArray',
         iconURL: jwArrayExtensionThumb,
         tags: ['penguinmod', 'datamgmt'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Store data efficiently in multi-purpose arrays.',
         extDeveloper: 'jwklong',
         featured: true
@@ -870,6 +960,8 @@ const menuItems = [
         extensionId: 'https://extensions.penguinmod.com/extensions/DogeisCut/dogeiscutObject.js',
         iconURL: 'https://extensions.penguinmod.com/images/DogeisCut/dogeiscutObject.svg',
         tags: ['penguinmod', 'datamgmt'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Store data efficiently in multi-purpose objects.',
         extDeveloper: 'DogeisCut',
         featured: true
@@ -879,6 +971,8 @@ const menuItems = [
         extensionId: 'jwXML',
         iconURL: jwXMLExtensionIcon,
         tags: ['penguinmod', 'datamgmt'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Creating, parsing and modifying XML data.',
         extDeveloper: 'jwklong',
         featured: true
@@ -888,6 +982,8 @@ const menuItems = [
         extensionId: 'jwTargets',
         iconURL: jwTargetsExtensionThumb,
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Direct access to sprites and their clones.',
         extDeveloper: 'jwklong',
         featured: true
@@ -897,6 +993,8 @@ const menuItems = [
         extensionId: 'jwNum',
         iconURL: jwNumExtensionThumb,
         tags: ['penguinmod', 'math'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Advanced number type capable of really big numbers.',
         extDeveloper: 'jwklong',
         credits: 'Naruyoko for ExpantaNum.js',
@@ -907,6 +1005,8 @@ const menuItems = [
         extensionId: 'jwColor',
         iconURL: jwColorExtensionThumb,
         tags: ['penguinmod', 'graphics'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Utilities for anything involving colors.',
         extDeveloper: 'jwklong',
         featured: true
@@ -916,6 +1016,8 @@ const menuItems = [
         extensionId: 'jwVector',
         iconURL: jwVectorExtensionThumb,
         tags: ['penguinmod', 'math'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Vector type for calculating with X and Y coordinates.',
         extDeveloper: 'jwklong',
         featured: true
@@ -925,6 +1027,8 @@ const menuItems = [
         extensionId: 'jwLambda',
         iconURL: jwLambdaExtensionThumb,
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Create anonymous functions with arguments and execute them.',
         extDeveloper: 'jwklong',
         featured: true
@@ -934,6 +1038,8 @@ const menuItems = [
         extensionId: 'jwScope',
         iconURL: jwScopeExtensionThumb,
         tags: ['penguinmod'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Temporary variables based on block stack. (extra blocks if used with Array extension)',
         extDeveloper: 'jwklong',
         featured: true
@@ -943,6 +1049,8 @@ const menuItems = [
         extensionId: 'jwPointer',
         iconURL: jwPointerExtensionThumb,
         tags: ['penguinmod', 'datamgmt'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Define references to values. (extra blocks if used with Array extension)',
         extDeveloper: 'jwklong',
         featured: true
@@ -952,6 +1060,8 @@ const menuItems = [
         extensionId: 'jwInt',
         iconURL: jwIntExtensionThumb,
         tags: ['penguinmod', 'math'],
+        insetIconURL: penguinmodIcon,
+            customInsetColor: '#0094FF',
         description: 'Large integers with zero precision loss.',
         extDeveloper: 'jwklong',
         featured: true
@@ -1120,6 +1230,27 @@ const menuItems = [
     {
         name: (
             <FormattedMessage
+                defaultMessage="TutelMod Extra Extensions"
+                description="Name of library item to open the Extra Extensions gallery"
+                id="pm.extraLibraryExtensions.name"
+            />
+        ),
+        href: 'https://tutelmod.github.io/TutelMod-ExtensionGallery/?editor=true',
+        extensionId: 'special_tutelmodExtensionLibrary',
+        iconURL: defaultExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="See some user-submitted extensions for the TutelMod community. Opens in a new tab."
+                description="Description of library item to open the Extra Extensions gallery"
+                id="tm.extraLibraryExtensions.description"
+            />
+        ),
+        tags: ['tutelmod', 'library'],
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="PenguinMod Extra Extensions"
                 description="Name of library item to open the Extra Extensions gallery"
                 id="pm.extraLibraryExtensions.name"
@@ -1183,6 +1314,18 @@ const menuItems = [
         isNew: true,
         tags: ['extcreate'],
         featured: true
+    },{
+        // not really an extension, but it's easiest to present it as one
+        name: 'TutelForge',
+        href: 'https://tutelmod.github.io/TutelForge',
+        extensionId: 'special_tutelforge',
+        iconURL: defaultExtensionIcon,
+        description: 'A fork of ExtForge that focuses on creating extensions for the TutelMod community.',
+        extDeveloper: 'vedal789',
+        isNew: true,
+        tags: ['creation', 'tutelmod'],
+        featured: true,
+        credits: 'Forked from ExtForge by jwklong'
     },
     {
         // not really an extension, but it's easiest to present it as one
