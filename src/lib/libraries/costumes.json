@@ -4002,6 +4002,20 @@
         "libraryFilePage": "images/user/Crate.svg"
     },
     {
+        "name": "creature",
+        "tags": [
+            "creature",
+            "elecricfuzzball",
+            "new"
+        ],
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "rotationCenterX": 0,
+        "rotationCenterY": 0,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "images/user/creature.png"
+    },
+    {
         "name": "Crystal-a",
         "tags": [
             "fantasy",
@@ -15266,6 +15280,20 @@
         "rotationCenterY": 0,
         "fromPenguinModLibrary": true,
         "libraryFilePage": "images/turkeyplate.svg"
+    },
+    {
+        "name": "tutel",
+        "tags": [
+            "tutel",
+            "official",
+            "new"
+        ],
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "rotationCenterX": 0,
+        "rotationCenterY": 0,
+        "fromPenguinModLibrary": true,
+        "libraryFilePage": "images/tutel.svg"
     },
     {
         "name": "Undo",
