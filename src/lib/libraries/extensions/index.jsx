@@ -60,7 +60,7 @@ import customExtensionIcon from './custom/custom.svg';
 import turbowarpIcon from './penguinmod/extensions/turbowarp_icon.svg';
 import penguinmodLibraryExtensionIcon from './penguinmod/library.svg';
 import sharkpoolGalleryIcon from './penguinmod/sharkpool-library.svg';
-import tutelmodLibraryExtensionIcon from './tutelmod/library.svg';
+import tutelmodLibraryExtensionIcon from './tutelmod/library.png';
 
 import ExtForgeIcon from './penguinmod/extforge.svg';
 
@@ -1237,7 +1237,7 @@ const menuItems = [
         ),
         href: 'https://tutelmod.github.io/TutelMod-ExtensionGallery/?editor=true',
         extensionId: 'special_tutelmodExtensionLibrary',
-        iconURL: defaultExtensionIcon,
+        iconURL: tutelmodLibraryExtensionIcon,
         description: (
             <FormattedMessage
                 defaultMessage="See some user-submitted extensions for the TutelMod community. Opens in a new tab."
