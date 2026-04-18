@@ -1232,7 +1232,7 @@ const menuItems = [
             <FormattedMessage
                 defaultMessage="TutelMod Extra Extensions"
                 description="Name of library item to open the Extra Extensions gallery"
-                id="pm.extraLibraryExtensions.name"
+                id="tutel.extraLibraryExtensions.name"
             />
         ),
         href: 'https://tutelmod.github.io/TutelMod-ExtensionGallery/?editor=true',
