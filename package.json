@@ -58,7 +58,7 @@
     "minilog": "3.1.0",
     "omggif": "1.0.9",
     "papaparse": "5.3.0",
-    "PenguinMod-MarkDown": "github:PenguinMod/PenguinMod-MarkDown#master",
+    "PenguinMod-MarkDown": "git+https://github.com/PenguinMod/PenguinMod-MarkDown.git#master",
     "pmp-protobuf": "^1.6.0",
     "postcss-import": "^12.0.1",
     "postcss-loader": "^3.0.0",
