@@ -78,6 +78,10 @@ const isAlwaysTrustedForFetching = parsed => (
     parsed.origin === 'https://penguinmod.com' ||
     parsed.origin.endsWith('.penguinmod.com') ||
 
+    // Any TutelMod service such as this website or the extensions gallery
+    parsed.origin === 'https://tutelmod.github.io' ||
+    parsed.origin.endsWith('tutelmod.github.io') ||
+
     // GitHub
     parsed.origin === 'https://raw.githubusercontent.com' ||
     parsed.origin === 'https://gist.githubusercontent.com' ||
