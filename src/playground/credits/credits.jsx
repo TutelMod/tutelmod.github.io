@@ -76,8 +76,8 @@ const Credits = () => (
             </a>
             <h2>Contributors</h2>
             <p>
-                TutelMod is maintained by one developer.
-                A list is below even tho we probably don't need to list one person, but you can also check <a href="https://github.com/orgs/TutelMod/people">our GitHub</a> incase this one is out of date.
+                TutelMod is maintained by a few developers.
+                A list is below, but you can also check <a href="https://github.com/orgs/TutelMod/people">our GitHub</a> incase this one is out of date.
             </p>
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
@@ -96,7 +96,7 @@ const Credits = () => (
         </section>
         <section>
             <h2>GitHub Pages</h2>
-            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host PenguinMod.</p>
+            <p>We currently use <a href="https://pages.github.com/">GitHub Pages</a> to host TutelMod.</p>
             <a href="https://pages.github.com/">
                 <img
                     src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/collections/github-pages-examples/github-pages-examples.png"
@@ -111,32 +111,32 @@ const Credits = () => (
                 All PenguinMod costumes are downloaded or created from:
                 <ul>
                     <li><a href="https://publicdomainvectors.org/">https://publicdomainvectors.org/</a></li>
-                    <li><a href="https://discord.gg/NZ9MBMYTZh">User-submissions from the PenguinMod Discord Server</a></li>
-                    <li>The PenguinMod Developers</li>
+                    <li><a href="https://discord.gg/SbC4aXGb9A">User-submissions from the TutelMod Discord Server</a></li>
+                    <li>The TutelMod Developers</li>
                 </ul>
-                All costumes exclusive to PenguinMod are included under Public Domain licenses or licenses such as MIT and CC0.
+                All costumes exclusive to TutelMod are included under Public Domain licenses or licenses such as MIT and CC0.
             </p>
             <p>This is the current list of user-submitted costume creators:</p>
             <UserList users={UserData.pmCostumeSubmittors} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <h2>Sound Effects</h2>
             <p>
-                All PenguinMod sounds are downloaded or created from:
+                All TutelMod sounds are downloaded or created from:
                 <ul>
                     <li><a href="https://freesound.org/">https://freesound.org/</a></li>
                     <li><a href="https://opengameart.org/">https://opengameart.org/</a> (only Public Domain ones)</li>
                     <li><a href="https://archive.org/">https://archive.org/</a></li>
-                    <li><a href="https://discord.gg/NZ9MBMYTZh">User-submissions from the PenguinMod Discord Server</a></li>
-                    <li>The PenguinMod Developers</li>
+                    <li><a href="https://discord.gg/SbC4aXGb9A">User-submissions from the TutelMod Discord Server</a></li>
+                    <li>The TutelMod Developers</li>
                 </ul>
-                All sounds exclusive to PenguinMod are included under Public Domain licenses or licenses such as MIT and CC0.
+                All sounds exclusive to TutelMod are included under Public Domain licenses or licenses such as MIT and CC0.
             </p>
             <p>This is the current list of user-submitted sound creators:</p>
             <UserList users={UserData.pmSoundSubmittors} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <h2>Accounts</h2>
             <p>
-                Scratch login on PenguinMod is managed with <a href="https://oauth2.scratch-wiki.info/">ScratchOAuth2</a>,
+                Scratch login on TutelMod is managed with <a href="https://oauth2.scratch-wiki.info/">ScratchOAuth2</a>,
                 see their <a href="https://github.com/ScratchVerifier/ScratchOAuth2">GitHub repository</a>.
                 <br />
                 <br />
