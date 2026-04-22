@@ -37,7 +37,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: 'https://penguinmod.com/project'
+      url: 'https://tutelmod.com/project'
     runs-on: ubuntu-latest
     needs: build
     steps:
