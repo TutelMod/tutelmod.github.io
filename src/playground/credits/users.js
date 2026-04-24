@@ -116,7 +116,7 @@ const addonDevelopers = [
 const pmDevelopers = [
     'vedal789',
     'FloppyDisk-OSC',
-    'dotun',
+    'thedotun',
     'ACBLOXPLAYER',
     'literallytwo'
 ].map(fromHardcodedGithub);
