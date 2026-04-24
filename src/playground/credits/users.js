@@ -891,6 +891,11 @@ const pmExtensionDevelopers = [
 
 const pmCodeUsedFrom = [
     {
+        text: "PenguinMod",
+        image: `https://github.com/PenguinMod.png`,
+        href: `https://github.com/PenguinMod/`,
+    },
+    {
         text: "Gandi-IDE",
         image: `https://github.com/Gandi-IDE.png`,
         href: `https://github.com/Gandi-IDE/`,
