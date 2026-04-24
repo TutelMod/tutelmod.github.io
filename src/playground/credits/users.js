@@ -115,7 +115,10 @@ const addonDevelopers = [
 
 const pmDevelopers = [
     'vedal789',
-    'FloppyDisk-OSC'
+    'FloppyDisk-OSC',
+    'dotun',
+    'ACBLOXPLAYER',
+    'literallytwo'
 ].map(fromHardcodedGithub);
 
 const pmPullRequestDevelopers = [ // these people made a PR that got merged, or got a dev to add something they made
