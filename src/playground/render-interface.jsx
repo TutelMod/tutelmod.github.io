@@ -281,7 +281,7 @@ class Interface extends React.Component {
     }
     copyProjectLink (id) {
         if ('clipboard' in navigator && 'writeText' in navigator.clipboard) {
-            navigator.clipboard.writeText(`https://projects.penguinmod.com/${id}`);
+            navigator.clipboard.writeText(`https://projects.tutelmod.com/${id}`);
         }
     }
     render () {
@@ -343,21 +343,21 @@ class Interface extends React.Component {
                     {isHomepage && projectId !== '0' && title && extraProjectInfo && extraProjectInfo.author && <div className={styles.projectDetails}>
                         <a
                             target="_blank"
-                            href={`https://penguinmod.com/profile?user=${extraProjectInfo.author}`}
+                            href={`https://tutelmod.com/profile?user=${extraProjectInfo.author}`}
                             rel="noreferrer"
                         >
                             <img
                                 className={styles.projectAuthorImage}
                                 title={extraProjectInfo.author}
                                 alt={extraProjectInfo.author}
-                                src={`https://projects.penguinmod.com/api/v1/users/getpfp?username=${extraProjectInfo.author}`}
+                                src={`https://projects.tutelmod.com/api/v1/users/getpfp?username=${extraProjectInfo.author}`}
                             />
                         </a>
                         <div className={styles.projectMetadata}>
                             <h2 dangerouslySetInnerHTML={{__html: formatProjectTitle(title)}} />
                             <p>by <a
                                 target="_blank"
-                                href={`https://penguinmod.com/profile?user=${extraProjectInfo.author}`}
+                                href={`https://tutelmod.com/profile?user=${extraProjectInfo.author}`}
                                 rel="noreferrer"
                             >{extraProjectInfo.author}</a></p>
                         </div>
@@ -389,21 +389,21 @@ class Interface extends React.Component {
                                         <a
                                             style={{height: '32px'}}
                                             target="_blank"
-                                            href={`https://penguinmod.com/profile?user=${remixedProjectInfo.author}`}
+                                            href={`https://tutelmod.com/profile?user=${remixedProjectInfo.author}`}
                                             rel="noreferrer"
                                         >
                                             <img
                                                 className={styles.remixAuthorImage}
                                                 title={remixedProjectInfo.author}
                                                 alt={remixedProjectInfo.author}
-                                                src={`https://projects.penguinmod.com/api/v1/users/getpfp?username=${remixedProjectInfo.author}`}
+                                                src={`https://projects.tutelmod.com/api/v1/users/getpfp?username=${remixedProjectInfo.author}`}
                                             />
                                         </a>
                                         <p>
                                             Thanks to <b>
                                                 <a
                                                     target="_blank"
-                                                    href={`https://penguinmod.com/profile?user=${remixedProjectInfo.author}`}
+                                                    href={`https://tutelmod.com/profile?user=${remixedProjectInfo.author}`}
                                                     rel="noreferrer"
                                                 >
                                                     {remixedProjectInfo.author}
