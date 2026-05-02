@@ -203,7 +203,7 @@ const PromptComponent = props => props.isCustom ? (
                         values={{
                             packager: (
                                 <a
-                                    href="https://studio.penguinmod.com/PenguinMod-Packager"
+                                    href="https://studio.tutelmod.com/PenguinMod-Packager"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

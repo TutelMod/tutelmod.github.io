@@ -25,6 +25,7 @@ const isTrustedExtensionOrigin = url => (
     /* Always trust the official extension repostiories */
     url.startsWith('https://extensions.turbowarp.org/') ||
     url.startsWith('https://extensions.penguinmod.com/') ||
+    url.startsWith('https://extensions.tutelmod.com/') ||
     url.startsWith('https://penguinmod-extensions-gallery.vercel.app/') ||
     url.startsWith('https://tutelmod.github.io/TutelMod-ExtensionsGallery/') ||
 
@@ -78,7 +79,9 @@ const isAlwaysTrustedForFetching = parsed => (
     parsed.origin === 'https://penguinmod.com' ||
     parsed.origin.endsWith('.penguinmod.com') ||
 
-    // Any TutelMod service such as this website or the extensions gallery
+    // Any TutelMod service such as projects
+    parsed.origin === 'https://tutelmod.com' ||
+    parsed.origin.endsWith('.tutelmod.com') ||
     parsed.origin === 'https://tutelmod.github.io' ||
     parsed.origin.endsWith('tutelmod.github.io') ||
 

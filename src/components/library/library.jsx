@@ -29,7 +29,7 @@ const messages = defineMessages({
     }
 });
 
-const PM_LIBRARY_API = "https://library.penguinmod.com/";
+const PM_LIBRARY_API = "https://library.tutelmod.com/";
 
 const ALL_TAG = {tag: 'all', intlLabel: messages.allTag};
 const tagListPrefix = [];

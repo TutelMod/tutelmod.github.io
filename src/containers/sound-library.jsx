@@ -33,7 +33,7 @@ const messages = defineMessages({
     }
 });
 
-const PM_LIBRARY_API = "https://library.penguinmod.com/";
+const PM_LIBRARY_API = "https://library.tutelmod.com/";
 
 // @todo need to use this hack to avoid library using md5 for image
 const getSoundLibraryThumbnailData = (soundLibraryContent, isRtl) => soundLibraryContent

@@ -84,7 +84,7 @@ const formatProjectTitle = _title => {
     return title.replace(emojiRegex, match => {
         const emojiName = match.replace(/:/gmi, '');
         return `<img
-            src="https://library.penguinmod.com/files/emojis/${emojiName}.png"
+            src="https://library.tutelmod.com/files/emojis/${emojiName}.png"
             alt=":${emojiName}:"
             title=":${emojiName}:"
             loading="lazy"
@@ -156,7 +156,7 @@ const Footer = () => (
                             id="tw.footer.credits"
                         />
                     </a>
-                    <a href="https://penguinmod.com/donate">
+                    <a href="https://tutelmod.com/donate">
                         <FormattedMessage
                             defaultMessage="Donate"
                             description="Donation link in footer"
@@ -165,9 +165,9 @@ const Footer = () => (
                     </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://studio.penguinmod.com/PenguinMod-Packager">
+                    <a href="https://studio.tutelmod.com/PenguinMod-Packager">
                         {/* Do not translate */}
-                        {'PenguinMod Packager'}
+                        {'TutelMod Packager'}
                     </a>
                     <a href="https://desktop.turbowarp.org/">
                         {/* Do not translate */}
@@ -196,28 +196,28 @@ const Footer = () => (
                     </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://penguinmod.com/terms">
+                    <a href="https://tutelmod.com/terms">
                         <FormattedMessage
                             defaultMessage="Terms of Service"
                             description="Link to Terms of Service"
                             id="pm.terms"
                         />
                     </a>
-                    <a href="https://penguinmod.com/privacy">
+                    <a href="https://tutelmod.com/privacy">
                         <FormattedMessage
                             defaultMessage="Privacy Policy"
                             description="Link to privacy policy"
                             id="tw.privacy"
                         />
                     </a>
-                    <a href="https://github.com/PenguinMod/PenguinMod-Home/issues">
+                    <a href="https://github.com/TutelMod/TutelMod-Home/issues">
                         <FormattedMessage
                             defaultMessage="Feedback & Bugs"
                             description="Link to feedback/bugs page"
                             id="tw.feedback"
                         />
                     </a>
-                    <a href="https://github.com/PenguinMod">
+                    <a href="https://github.com/TutelMod">
                         <FormattedMessage
                             defaultMessage="Source Code"
                             description="Link to source code"
@@ -479,7 +479,7 @@ class Interface extends React.Component {
                                         <a
                                             target="_blank"
                                             rel="noreferrer"
-                                            href={`https://penguinmod.com/report?type=project&id=${projectId}`}
+                                            href={`https://tutelmod.com/report?type=project&id=${projectId}`}
                                             className={styles.reportLink}
                                         >
                                             <img
@@ -500,7 +500,7 @@ class Interface extends React.Component {
                             </div>
                             <a
                                 target="_blank"
-                                href="https://penguinmod.com/search?q=newest:"
+                                href="https://tutelmod.com/search?q=newest:"
                                 rel="noreferrer"
                             >
                                 See more projects

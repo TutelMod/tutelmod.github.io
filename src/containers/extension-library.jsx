@@ -45,7 +45,9 @@ const messages = defineMessages({
 // Only trust loading extension links from these origins.
 // For user-made libraries.
 const TRUSTED_LOADEXT_ORIGINS = [
+    'https://studio.tutelmod.com', // for development
     'https://studio.penguinmod.com', // for development
+    'https://extensions.tutelmod.com',
     'https://extensions.penguinmod.com',
     'https://sharkpools-extensions.vercel.app',
     'https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main', // Some people cant connect to vercel
@@ -172,7 +174,7 @@ class ExtensionLibrary extends React.PureComponent {
             return;
         }
         if (extensionId === 'special_penguinmodExtensionLibrary') {
-            window.open('https://extensions.penguinmod.com/?editor=true');
+            window.open('https://extensions.tutelmod.com/?editor=true');
             return;
         }
         const url = (item.extensionURL ? item.extensionURL : extensionId);
