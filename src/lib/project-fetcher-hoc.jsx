@@ -240,7 +240,7 @@ const ProjectFetcherHOC = function (WrappedComponent) {
     };
     ProjectFetcherComponent.defaultProps = {
         assetHost:
-            "https://f005.backblazeb2.com/file/tutelmod/",
+            "https://f005.backblazeb2.com/file/tutelmod",
         projectHost:
             "https://projects.tutelmod.com/api/v1/projects/getProject?requestType=protobuf&safe=true&projectID",
     };
